@@ -28,7 +28,7 @@ dockerfile-parse==1.0.0 \
     --hash=sha256:9ed92ede29a646094b52b8b302e477f08e63465b6ee524f5750810280143712e \
     --hash=sha256:f04920c573d980904ce99abc70e31d28140d9195fb10f4d50c2dee1b6f45ebed \
     # via -r requirements.in
-idna==2.10 \
+idna==3.7 \
     --hash=sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6 \
     --hash=sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0 \
     # via requests
