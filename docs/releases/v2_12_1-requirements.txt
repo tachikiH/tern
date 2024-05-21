@@ -275,7 +275,7 @@ regex==2023.6.3 \
     --hash=sha256:fb5ec16523dc573a4b277663a2b5a364e2099902d3944c9419a40ebd56a118f9 \
     --hash=sha256:fea75c3710d4f31389eed3c02f62d0b66a9da282521075061ce875eb5300cf23
     # via -r requirements.in
-requests==2.31.0 \
+requests==2.32.0 \
     --hash=sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f \
     --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1
     # via
