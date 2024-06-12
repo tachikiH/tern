@@ -9,7 +9,7 @@
 PyYAML>=6.0
 docker~=6.1
 dockerfile-parse~=2.0
-requests~=2.31
+requests~=2.32.2
 stevedore>=5.1
 pbr>=5.11
 debian-inspector>=31.0
