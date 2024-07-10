@@ -199,3 +199,4 @@ websocket-client==1.2.3 \
     --hash=sha256:1315816c0acc508997eb3ae03b9d3ff619c9d12d544c9a9b553704b1cc4f6af5 \
     --hash=sha256:2eed4cc58e4d65613ed6114af2f380f7910ff416fc8c46947f6e76b6815f56c0
     # via docker
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
