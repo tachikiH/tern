@@ -303,3 +303,4 @@ websocket-client==1.5.1 \
     --hash=sha256:3f09e6d8230892547132177f575a4e3e73cfdf06526e20cc02aa1c3b47184d40 \
     --hash=sha256:cdf5877568b7e83aa7cf2244ab56a3213de587bbe0ce9d8b9600fc77b455d89e
     # via docker
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
