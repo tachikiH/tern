@@ -8,7 +8,7 @@ attrs==21.2.0 \
     --hash=sha256:149e90d6d8ac20db7a955ad60cf0e6881a3f20d37096140088356da6c716b0b1 \
     --hash=sha256:ef6aaac3ca6cd92904cdd0d83f629a15f18053ec84e6432106f7a4d04ae4f5fb
     # via debian-inspector
-certifi==2021.5.30 \
+certifi==2024.7.4 \
     --hash=sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee \
     --hash=sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8
     # via requests
@@ -34,11 +34,11 @@ gitdb==4.0.7 \
     --hash=sha256:6c4cc71933456991da20917998acbe6cf4fb41eeaab7d6d67fbc05ecd4c865b0 \
     --hash=sha256:96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005
     # via gitpython
-gitpython==3.1.18 \
+gitpython==3.1.41 \
     --hash=sha256:b838a895977b45ab6f0cc926a9045c8d1c44e2b653c1fcc39fe91f42c6e8f05b \
     --hash=sha256:fce760879cd2aebd2991b3542876dc5c4a909b30c9d69dfc488e504a8db37ee8
     # via -r requirements.in
-idna==2.10 \
+idna==3.7 \
     --hash=sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6 \
     --hash=sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0
     # via requests
@@ -126,7 +126,7 @@ regex==2021.7.6 \
     --hash=sha256:f9392a4555f3e4cb45310a65b403d86b589adc773898c25a39184b1ba4db8985 \
     --hash=sha256:f98dc35ab9a749276f1a4a38ab3e0e2ba1662ce710f6530f5b0a6656f1c32b58
     # via -r requirements.in
-requests==2.25.1 \
+requests==2.32.2 \
     --hash=sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804 \
     --hash=sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e
     # via
@@ -144,7 +144,7 @@ stevedore==3.3.0 \
     --hash=sha256:3a5bbd0652bf552748871eaa73a4a8dc2899786bc497a2aa1fcb4dcdb0debeee \
     --hash=sha256:50d7b78fbaf0d04cd62411188fa7eedcb03eb7f4c4b37005615ceebe582aa82a
     # via -r requirements.in
-urllib3==1.26.6 \
+urllib3==1.26.19 \
     --hash=sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4 \
     --hash=sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f
     # via requests
@@ -156,3 +156,4 @@ websocket-client==1.1.0 \
     --hash=sha256:b68e4959d704768fa20e35c9d508c8dc2bbc041fd8d267c0d7345cffe2824568 \
     --hash=sha256:e5c333bfa9fa739538b652b6f8c8fc2559f1d364243c8a689d7c0e1d41c2e611
     # via docker
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
